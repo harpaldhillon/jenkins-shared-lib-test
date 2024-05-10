@@ -1,4 +1,5 @@
 import com.example.MySharedLibrary
+import groovy.util.GroovyTestCase
 
 def call() {
     echo 'Hello from my custom step!'
