@@ -1,3 +1,5 @@
+library identifier: 'jenkins-shared-lib-test@main', retriever: modernSCM([$class: 'GitSCMSource', remote: 'https://github.com/harpaldhillon/jenkins-shared-lib-test.git'])
+
 pipeline {
     agent any
     stages {
