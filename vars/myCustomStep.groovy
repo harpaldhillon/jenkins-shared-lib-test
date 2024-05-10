@@ -11,4 +11,9 @@ def call() {
     assert true, imagebuild.isSemanticVersioning(version1)
     assert true, imagebuild.isSemanticVersioning(version2)
 
+
+    def value = 1
+    assert value > 5, "Value should be greater than 5"
+    echo "Value is greater than 5"
+
 }
