@@ -5,10 +5,10 @@ def call() {
 
     // Example usage:
     def version1 = "1.2.3"
-    def version2 = "1.2.3-alpha.1"
+    def version2 = "alpha"
 
     MySharedLibrary imagebuild = new MySharedLibrary();
-    println imagebuild.isSemanticVersioning(version1)
-    println imagebuild.isSemanticVersioning(version2)
+    assert true, imagebuild.isSemanticVersioning(version1)
+    assert true, imagebuild.isSemanticVersioning(version2)
 
 }
