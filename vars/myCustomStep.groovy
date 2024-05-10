@@ -8,12 +8,12 @@ def call() {
     def version2 = "alpha"
 
     MySharedLibrary imagebuild = new MySharedLibrary();
-    assert imagebuild.isSemanticVersioning(version1) == true, "Hello"
-    assert imagebuild.isSemanticVersioning(version2) == true, "Hello"
+    assert imagebuild.isSemanticVersioning(version1), "Hello"
+    assert imagebuild.isSemanticVersioning(version2), "Hello"
 
 
-    def value = 10
-    assert value > 5, "Value should be greater than 5"
-    echo "Value is greater than 5"
+    // def value = 10
+    // assert value > 5, "Value should be greater than 5"
+    // echo "Value is greater than 5"
 
 }
