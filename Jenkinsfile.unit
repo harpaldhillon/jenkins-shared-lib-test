@@ -7,7 +7,8 @@ pipeline {
             steps {
                 script {
                     //com.example.MySharedLibrary.hello()
-                    myCustomStep()
+                    // myCustomStep()
+                    mySharedLibraryTest()
                 }
             }
         }
