@@ -8,7 +8,7 @@ def call() {
     def version2 = "1.2.3-alpha.1"
 
     MySharedLibrary imagebuild = new MySharedLibrary();
-    imagebuild.isSemanticVersioning(version1)
-    imagebuild.isSemanticVersioning(version2)
+    println imagebuild.isSemanticVersioning(version1)
+    println imagebuild.isSemanticVersioning(version2)
 
 }
