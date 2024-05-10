@@ -6,7 +6,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    com.example.MySharedLibrary.hello()
+                    //com.example.MySharedLibrary.hello()
                     myCustomStep()
                 }
             }
