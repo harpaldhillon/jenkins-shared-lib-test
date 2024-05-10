@@ -9,7 +9,7 @@ def call() {
 
     MySharedLibrary imagebuild = new MySharedLibrary();
     assert imagebuild.isSemanticVersioning(version1), true
-    assert imagebuild.isSemanticVersioning(version2), true
+    assert imagebuild.isSemanticVersioning(version2), false
 
 
     // def value = 10
